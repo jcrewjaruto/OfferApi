@@ -28,6 +28,11 @@ import com.app.model.type.Currency;
 import com.app.service.IOfferManager;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/*
+ * 
+ * n.b. could have broken down the testing into smaller classes, but decided it was not necessary yet
+ * 
+ * */
 @RunWith(SpringRunner.class)
 @WebMvcTest(value = OfferController.class, secure = false)
 public class OfferControllerTest {
