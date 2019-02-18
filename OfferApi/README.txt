@@ -26,11 +26,12 @@ Project Assumptions:
 ----------------------------------------------------------
 Running project locally
 ----------------------------------------------------------
-1. Checkout git project:
+1. Checkout git project.
 2. Open project from your chosen IDE.
 3. Make sure you have a web-server (i.e. Tomcat Apache) setup on the IDE, so that this project can run on.
 4. Run the project: should be able to run application as a typical Java Application.
 5. Begin testing with browser.
+6. Test is found under: com.app.controller.OfferControllerTest.java
 
 ----------------------------------------------------------
 Calling API examples:
